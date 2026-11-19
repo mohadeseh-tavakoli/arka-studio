@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Link, Route, Routes, useLocation, useParams } from 'react-router-dom'
 import { ArrowDown, ArrowLeft, Check, Menu, X } from 'lucide-react'
-import { projects } from './data/projects'
+import { projects } from "./projects.js";
 import './styles.css'
 
 const SITE='https://arka-studio.ir'
